@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajax</title>
+</head>
+<body>
+	test ajax cross origin
+	<script type="text/javascript">
+		let xhr = new XMLHttpRequest();
+		xhr.open('get', 'http://localhost:9999/json', true);
+		xhr.setRequestHeader('X-Cross-Test', 'test');
+		xhr.send();
+		// xhr.setRequestHeader('Content-Type', 'application/json');
+		
+		// xhr.withCredentials = true;
+		
+		// fetch('http://localhost:9999/json',{
+		// 	headers: {
+		// 		'Content-Type': 'application/json',
+		// 		'X-Cross-Test': 'test'
+		// 	}
+		// }).then((res, data) => {
+		// 	console.log(res);
+		// });
+	</script>
+</body>
+</html>

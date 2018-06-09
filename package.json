@@ -1,0 +1,24 @@
+{
+  "name": "FrontEnd-Skill",
+  "version": "1.0.0",
+  "description": "常见的一些前端技术问题",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "4.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanjian2323/FrontEnd-Skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanjian2323/FrontEnd-Skill/issues"
+  },
+  "homepage": "https://github.com/yanjian2323/FrontEnd-Skill#readme"
+}
